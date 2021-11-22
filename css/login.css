@@ -1,6 +1,9 @@
 body {
+    background-image: url(../img/backgroundImage.jpg);
+    height: 100vh;
+    width: 100vw;
     
-    background-color: rgba(0,0,0,0.5);
+    /*background-color: rgba(0,0,0,0.5);*/
 }
 
 form{
@@ -10,6 +13,7 @@ form{
     height: 400px;
     margin: 30%;
 }
+
 
 input{
 
