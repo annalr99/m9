@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RASTREADOS ADOPCIÓN</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/home_css.css"/>
+    <link rel="stylesheet" type="text/css" href="css/popUp.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="home.html" style="color: white;">RASTREADOS</a></div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                <li><a href="home.html">Animales</a></li>
+                <li><a href="adopcion.html">Dar en adopción</a></li>
+                <li><a href="#">Donaciones</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <a class="login" href="#"><button>Log In</button></a>
+            <a class="register" href="#"><button>Register</button></a>
+        </nav>
+        
+
+    </header>
+    <section class="seccionContenido">
+        <div class="contenidoDarAdopcion">
+            <div>
+                <h1>Dar en adpción</h1>
+                <p class="textoDarAdopcion">
+                    Ponte en contacto con nosotros si no pueder hacerte cargo de un animal, has tenido una camada
+                    de cachorros o te has encontrado con algun animal sin hogar y quieres ayudar a que encuentre uno.
+                </p>
+                <img src="img/Perro.jpg"  style="width:100%;" >
+                <p class="textoemail">Introduce tu Email para que nos pongamos en contacto contigo:</p>
+                <input type="email" id="email" placeholder="Email" />
+                <a  href="#" id="abrirPopupEmail"><button class="botonEnviar">Enviar</button></a>
+            </div>
+        </div>
+
+
+
+         <!-- Aqui vamos a poner el div en el que pondremos el PopUp para confirmar -->
+         <div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h3 style=" text-align: center;">Gracias! Te informaremos pronto!</h3>
+			</div>
+		</div>
+    </section>
+    
+    
+
+    
+    <footer>
+        <section class="seccionFotter">
+            <a href="https://www.instagram.com/?hl=es" class="redes">
+                <img src="img/instagram.png" style="width:30px;">
+            </a>
+            <a href="https://twitter.com/?lang=es" class="redes">
+                <img src="img/twitter.png" style="width:30px;">
+            </a>
+            <a href="https://www.youtube.com/" class="redes">
+                <img src="img/youtube.png" style="width:30px;">
+            </a>
+        </section>
+    </footer>
+
+<script src="javascript/popupconfirmemail.js"></script>
+</body>
+
+</html>

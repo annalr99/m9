@@ -1,0 +1,210 @@
+@import "cards.css";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 10%;
+    background: #33C0E2;
+}
+
+li,  button{
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.logo{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+}
+
+.nav_links{
+    list-style: none;
+    margin-top: 2%;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav_links li a:hover{
+    color: #86D865;
+}
+
+
+button{
+    padding: 9px 25px;
+    background-color: #DF880D;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+button:hover{
+    background-color: #ffac38;
+}
+
+footer{
+    background: #DF880D;
+    color: white;
+    text-align: right;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 8%;
+    
+    
+}
+ 
+.user{
+    color: white;
+    margin-right: 50px;
+}
+.seccionContenido{
+    min-height: 85vh;
+    /*IMPORTANTE para centrar en la pantalla*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.ContenedorBocadillo{
+    display: flex;
+	flex-wrap: wrap;
+
+    /*IMPORTANTE para centrar*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble {
+    margin: 50px;
+    padding: 20px;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    width: 30%;
+    color: white;
+    
+    
+}
+.bubble:after {
+    content: "";
+    position: absolute;
+   top: 100%;
+   left: 265px;
+   border-top: 20px solid ;
+   border-top-color: inherit;
+   border-left: 20px solid transparent;
+   border-right: 20px solid transparent;
+}
+
+.sabermas{
+    width: 100%;
+}
+
+.contenidoAnimal{
+    display: flex;
+	flex-wrap: wrap;
+    
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+
+}
+
+
+.textoInfoAnimal{
+    
+    
+}
+
+.informacionAnimal{
+    width: 50%;
+    padding-right: 3%;
+   
+}
+
+.ImgBotonesAnimal{
+    width: 50%;
+    
+    
+
+}
+.botonDonar{
+    width: 49%;
+    margin-left: 10px;
+    margin-top: 40px;
+    background-color: #86D865;
+}
+.botonDonar:hover{
+    background-color: #b4ff97;
+}
+
+.botonAdoptar{
+    width: 49%;
+}
+
+
+/* -------------dar en adpcion--------------- */
+.contenidoDarAdopcion{
+    width: 40%;
+    text-align: center;
+    
+}
+
+.contenidoDarAdopcion h1{
+    text-align: center;
+    font-weight: bolder;
+}
+.textoDarAdopcion{
+    text-align: center;
+}
+.botonEnviar{
+
+}
+.botonEnviar{
+    width: 50%;
+    margin-left: 10px;
+
+    background-color: #33C0E2;
+}
+.botonEnviar:hover{
+    background-color: #6ee2ff;
+}
+
+.textoemail{
+    padding-top: 10px;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RASTREADOS ANIMALES</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/home_css.css"/>
+    <link rel="stylesheet" type="text/css" href="css/popUp.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="home.html" style="color: white;">RASTREADOS</a></div>
+        <nav>
+            <ul class="nav_links">
+                <li><a href="sobreNosotros.html">Sobre nosotros</a></li>
+                <li><a href="home.html">Animales</a></li>
+                <li><a href="adopcion.html">Dar en adopción</a></li>
+                <li><a href="#">Donaciones</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <a class="login" href="#"><button>Log In</button></a>
+            <a class="register" href="#"><button>Register</button></a>
+        </nav>
+        
+
+    </header>
+    <section class="seccionContenido">
+        <div class="contenidoAnimal">
+            <div class="informacionAnimal">
+                <div style="display: flex; flex-wrap: wrap;">
+                    <H1>Nombre</H1>
+                    <h4>edad y sexo</h4>
+                    
+                </div>
+                
+                <p class="textoInfoAnimal">
+                    <hr style="background-color: #33C0E2;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+                    sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <div class="ImgBotonesAnimal">
+                <img src="img/Perro.jpg"  style="width:100%;" >
+                <a  href="#"><button class="botonDonar" id="botonDonar">Donar/Apadrinar</button></a>
+                <a  href="#" id="botonAdoptar"><button class="botonAdoptar" >Adoptar</button></a>
+            </div>
+            
+
+        </div>
+
+
+
+        <!-- Aqui vamos a poner el div en el que pondremos el PopUp para confirmar -->
+        <div class="overlay" id="overlay">
+			<div class="popup" id="popup">
+                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+				<h4 style="text-align: center;">Introduce tu correo para ponernos en contacto</h4>
+				<form action="">
+					<div class="contenedor-inputs">
+						
+						<input type="email" placeholder="Email">
+					</div>
+					<input type="submit" class="btn-submit" value="ENVIAR" style="width: 100%;">
+				</form>
+			</div>
+		</div>
+    </section>
+    
+    
+
+    
+    <footer>
+        <section class="seccionFotter">
+            <a href="https://www.instagram.com/?hl=es" class="redes">
+                <img src="img/instagram.png" style="width:30px;">
+            </a>
+            <a href="https://twitter.com/?lang=es" class="redes">
+                <img src="img/twitter.png" style="width:30px;">
+            </a>
+            <a href="https://www.youtube.com/" class="redes">
+                <img src="img/youtube.png" style="width:30px;">
+            </a>
+        </section>
+    </footer>
+
+<script src="javascript/popupAdoptar.js"></script>
+</body>
+
+</html>
